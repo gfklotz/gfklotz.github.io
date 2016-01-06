@@ -1,19 +1,24 @@
 body {
   font-family: 'helvetica neue', arial, sans-serif;
-  font-weight: 300;
+  font-weight: 200;
+  font-size: 11pt;
   border-style: dashed;
-  border-color: blue;
-  box-shadow: 10px 5px 5px green;
-  background: url(bills.png);
-  background-size: 100px; 
-  background-repeat: no-repeat;
+  border-color: rgba(0, 0, 255, 0.4);
+  box-shadow: 10px 5px 5px rgba(0, 28, 128, 0.22);
+  background-color:rgba(232, 232, 236, 0.4);
 }
+
 #wrapper {
   width: 960px;
   margin: 20px auto;
 }
 h1{
-	color: blue;
+	color: rgba(0, 0, 255, 0.4);
+	font-size: 28pt;
+}
+h2{
+	color: rgba(0, 0, 255, 0.4);
+	font-size: 24pt;
 }
 h4{
 	color: purple;
@@ -23,4 +28,11 @@ h4{
 }
 img{
 	width: 100px;
+}
+.dragons-cray {
+	color: #6054BB;
+}
+h3, h4 {
+	font-size: 14pt;
+	font-family: 'helvetica'
 }
