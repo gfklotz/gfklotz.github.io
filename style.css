@@ -2,8 +2,6 @@ body {
   font-family: 'helvetica neue', arial, sans-serif;
   font-weight: 200;
   font-size: 11pt;
-  border-style: dashed;
-  border-color: rgba(0, 0, 255, 0.4);
   box-shadow: 10px 5px 5px rgba(0, 28, 128, 0.22);
   background-color:rgba(232, 232, 236, 0.4);
 }
@@ -14,7 +12,8 @@ body {
 }
 h1{
 	color: rgba(0, 0, 255, 0.4);
-	font-size: 28pt;
+	font-family: 'helvetica'; 
+	font-size: 24pt;
 }
 h2{
 	color: rgba(0, 0, 255, 0.4);
@@ -35,4 +34,14 @@ img{
 h3, h4 {
 	font-size: 14pt;
 	font-family: 'helvetica'
+}
+.jumbrotron{ 
+	font-size: 24pt; 
+	font-family: 'helvetica';
+	background-image: url(cloud.jpg);
+}
+.thumbnail {
+	background-color: rgba(0, 28, 128, 0.22);
+	max-width: 125px;
+	max-height: 125px;
 }

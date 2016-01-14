@@ -1,62 +1,115 @@
-<!DOCTYPE html>
 <html>
 <head>
-  <title>Greg Klotz, MBA</title>
+  <title>Greg's Travel Tips</title>
   <meta charset="UTF-8">
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
-  <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 <body>
-  <div id="wrapper">
-    <h1>Greg Klotz</h1>
-    <p>
-      <img src="Greg.png">
-    </p>
-    <h2>Bills Fan</h2>
-    <p>
-      <img src="bills.png">
-    <div>
-      <h4>Connect With Me</h4>
-      <ul>
-        <li><a href="mailto:gfklotz7@gmail.com">Email</a></li>
-        <li><a href="http://facebook.com/greg.klotz">Facebook</a></li>
-        <li><a href="https://www.linkedin.com/in/gregory-klotz-9649698">LinkedIn</a></li>
+<nav class="navbar navbar-default">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#">Home</a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#">Asia <span class="sr-only">(current)</span></a></li>
+        <li><a href="#">South America</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Europe <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">UK</a></li>
+            <li><a href="#">Western Europe</a></li>
+            <li><a href="#">Eastern Europe</a></li>
+          </ul>
+        </li>
       </ul>
-    </div>
-    <div>
-      <h4 id="summary"> Summary</h4>
-      <p>
-        Greg has been a life long Bills fan, not seeing his team advance to the playoffs in 16 years. For some reason he still watches the games religiously. 
-        </p>
-       <p> 
-        <em>When not being dissapointed by the bills, </em> Greg took the time to obtain his BS from Syracuse University and then moved to NYC to start his career at JPMorgan. After three years at JPMorgan, he moved to a startup consulting firm where he stayed for two years before enrolling at the Kellogg SOM.   
-      </p>
-    </div>
-    <div>
-      <h4>Experience</h4>
-      <div>
-        <h5>Co-Owner, Bills Mafia, current</h5>
-        <h5>Jpmorgan, 2010-13</h5>
-        <h5>Kepler Cannon, 2013-15
-      </div>
-      <div>
-      </div>
-    </div>
-    <div>
-      <h4>Skills (or lack thereof)</h4>
-      <ul>
-        <li>The Worm</li>
-        <li>Binge Watching Football</li>
-        <li>House Flipping</li>
+      <form class="navbar-form navbar-left" role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+      </form>
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#">Tips on Saving  <i class="fa fa-money"></i></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Foodie Section <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#">Unique Foods</a></li>
+            <li><a href="#">Libations</a></li>
+          </ul>
+        </li>
       </ul>
-    </div>
-    <div>
-      <h4 class="dragons-cray">Hobbies</h4>
-      <ul>
-        <li>Northwestern Wildcat Football Booster Club</li>
-        <li>Listening to Sally Blount Talk</li>
-      </ul>
-    </div>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="jumbotron">
+  <div class="container">
+    <h1> TRAVEL INSIGHTS 
+    THAT PUT BOURDAIN TO SHAME </h1>
   </div>
+<p><a class="btn btn-primary btn-lg" href="#" role="button">Discover why we're better than AB</a></p>
+</div>
+
+ <h2>Explore Dream Travel By</h2>
+
+    <table class="table table-hover table-condensed">
+      <thead>
+        <tr>
+          <th>Geography</th>
+          <th>Travel Type</th>
+          <th>Travel Budget</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Asia</td>
+          <td>Adventure</td>
+          <td><i class="fa fa-money"><i class="fa fa-money"><i class="fa fa-money"></td>
+        </tr>
+        <tr>
+          <td>South America</td>
+          <td>Eco Tourism</td>
+          <td><i class="fa fa-money"><i class="fa fa-money"></td>
+        </tr>
+        <tr>
+          <td>Asia</td>
+          <td>Sun ad Fun</td>
+          <td><i class="fa fa-money"></td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+  <div class="row">
+  <div class="col-xs-6 col-md-4">
+    <a href="#" class="thumbnail">
+      <img src="Globe.jpg">
+    </a>
+  </div>
+    <div class="col-xs-6 col-md-4">
+    <a href="#" class="thumbnail">
+      <img src="beach.jpg">
+    </a>
+  </div>
+    <div class="col-xs-6 col-md-3">
+    <a href="#" class="thumbnail">
+      <img src="budget.jpg">
+    </a>
+  </div>
+</div>
 </body>
 </html>
