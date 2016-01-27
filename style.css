@@ -40,8 +40,10 @@ h3, h4 {
 	font-family: 'helvetica';
 	background-image: url(cloud.jpg);
 }
-.thumbnail {
+.thumbnail  > img {
 	background-color: rgba(0, 28, 128, 0.22);
-	max-width: 125px;
-	max-height: 125px;
+	width: 125px;
+	height: 125px;
 }
+.iframe {	
+	}
